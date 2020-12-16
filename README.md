@@ -2,14 +2,14 @@
 
 ## The Problem ##
 
-Scientific data collection is expensive and time consuming.  How can AI help scientists collect data more efficiently?  In this repository we present a framework where AI systems work together with human scientists to ensure data collection is directed to regions more efficiently.
+Scientific data collection is expensive and time consuming.  How can AI help scientists collect data more efficiently?  In this repository we present a framework where AI systems work together with human scientists to ensure data collection is directed more efficiently to scientifically interesting regions.
 
 
 ## What's Here ##
 
 This repo contains the source code for simulating our proposed Human-in-the-Loop data collection process.
 
-Specifically, the codebase contains three main entities that interact in the context of a one-dimensional scientific data collection problem.  First, an *AI agent*, which selects x-values at which to gather samples: we include several algorithms, from simple round-robin baselines to more complex approaches.  Next a stochastic *environment*, which stochastically generates y-values for each chosen x-value, we consider several different environments based on real-world data drawn from the domains of cognitive psychology, behavioral economics, and mental health.  Finally, a *simulated human user*, which places keypoints to indicate  to the AI what regions are scientifically interesting, we consider several different simulated users, such as users looking for values close to some target, users looking for critical points, etc.
+Specifically, the codebase contains three main entities that interact in the context of a one-dimensional scientific data collection problem.  First, an **AI agent**, which selects x-values at which to gather samples: we include several algorithms, from simple round-robin baselines to more complex approaches.  Next a stochastic **environment**, which stochastically generates y-values for each chosen x-value, we consider several different environments based on real-world data drawn from the domains of cognitive psychology, behavioral economics, and mental health.  Finally, a **simulated human user**, which places keypoints to indicate  to the AI what regions are scientifically interesting, we consider several different simulated users, such as users looking for values close to some target, users looking for critical points, etc.
 
 
   Further details can be found in the following paper:  ["AI-Assisted Scientific Data Collection with Iterative Human Feedback"](http://datadrivengame.science/aaai21).  
