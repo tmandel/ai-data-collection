@@ -18,7 +18,7 @@ Specifically, the codebase contains three main entities that interact in the con
   ```
   @inproceedings{mandel2021ai,
       title={AI-Assisted Scientific Data Collection with Iterative Human Feedback},
-      author={Mandel, Travis and Boyd, James and Carter, Sebastian J and Nammoto, Taishi},
+      author={Mandel, Travis and Boyd, James and Carter, Sebastian J and Tanaka, Randall H and Nammoto, Taishi},
       booktitle={AAAI},
       year={2021}
     }
