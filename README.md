@@ -13,10 +13,6 @@ Specifically, the codebase contains three main entities that interact in the con
 
 
   Further details can be found in the following paper:  ["AI-Assisted Scientific Data Collection with Iterative Human Feedback"](http://datadrivengame.science/aaai21).
-  
-[Main text (510 KB PDF)](http://datadrivengame.science/aaai21/4450.MandelT.pdf)
-
-[Appendix (608 KB PDF)](http://datadrivengame.science/aaai21/mandel-aaai21-appendix.pdf)
 
   If you find this code useful, please cite our paper:
   ```
