@@ -64,5 +64,11 @@ To run the full simulation and regenerate `allResults.json` (note: takes 6-8 hou
 * `utilities.py` Miscellaneous utilities, often used in multiple places throughout the code
 * `Data/` This folder contains a subfolder for each of the three domains listed in the paper. For each one we provide the raw dataset, the python file used to process it, and the processed JSON dataset.
 
+### Data Sources ###
+
+[Economics](https://www.kaggle.com/neuromusic/avocado-prices)
+[Mental Health](https://www.kaggle.com/osmi/mental-health-in-tech-2016)
+[Cognitive psychology](https://www.psychdata.de/index.php?main=search&sub=browse&id=pdpr99ve20&lang=eng)
+
 
 
