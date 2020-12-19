@@ -66,9 +66,9 @@ To run the full simulation and regenerate `allResults.json` (note: takes 6-8 hou
 
 ### Data Sources ###
 
-[Economics](https://www.kaggle.com/neuromusic/avocado-prices)
-[Mental Health](https://www.kaggle.com/osmi/mental-health-in-tech-2016)
-[Cognitive psychology](https://www.psychdata.de/index.php?main=search&sub=browse&id=pdpr99ve20&lang=eng)
+* [Economics](https://www.kaggle.com/neuromusic/avocado-prices)
+* [Mental Health](https://www.kaggle.com/osmi/mental-health-in-tech-2016)
+* [Cognitive psychology](https://www.psychdata.de/index.php?main=search&sub=browse&id=pdpr99ve20&lang=eng)
 
 
 
