@@ -12,7 +12,11 @@ This repo contains the source code for simulating our proposed Human-in-the-Loop
 Specifically, the codebase contains three main entities that interact in the context of a one-dimensional scientific data collection problem.  First, an **AI agent**, which selects x-values at which to gather samples: we include several algorithms, from simple round-robin baselines to more complex approaches.  Next a stochastic **environment**, which stochastically generates y-values for each chosen x-value, we consider several different environments based on real-world data drawn from the domains of cognitive psychology, behavioral economics, and mental health.  Finally, a **simulated human user**, which places keypoints to indicate  to the AI what regions are scientifically interesting, we consider several different simulated users, such as users looking for values close to some target, users looking for critical points, etc.
 
 
-  Further details can be found in the following paper:  ["AI-Assisted Scientific Data Collection with Iterative Human Feedback"](http://datadrivengame.science/aaai21).  
+  Further details can be found in the following paper:  ["AI-Assisted Scientific Data Collection with Iterative Human Feedback"](http://datadrivengame.science/aaai21).
+  
+[Main text (510 KB PDF)](http://datadrivengame.science/aaai21/4450.MandelT.pdf)
+
+[Appendix (608 KB PDF)](http://datadrivengame.science/aaai21/mandel-aaai21-appendix.pdf)
 
   If you find this code useful, please cite our paper:
   ```
