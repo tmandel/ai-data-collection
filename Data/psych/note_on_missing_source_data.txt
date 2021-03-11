@@ -1,0 +1,13 @@
+Note: 
+
+The psychology data source file "pdpr99ve20_pd1.csv" is not included in this repo because we are not allowed to publically distribute the source data.
+
+So, one cannot run the psychData.py script that analyzes the data to generate the condensed JSON file we use as input.
+
+If you want to access the original data file, please request it from PsychData:
+
+"A comparison of magnitude estimations and category judgments. Primary data."
+
+https://www.psychdata.de/index.php?main=search&sub=browse&id=pdpr99ve20&lang=eng
+
+You will have to sign a data use agreement.
