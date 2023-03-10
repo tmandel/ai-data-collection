@@ -168,6 +168,7 @@ if __name__ == "__main__":
 
                 # Set up the learner and the environment
                 env.reset()
+                evaluator.reset()
                 human.tagOut()
                 theory = human.buildTheoryFromInitialSamples(initSamples)
                 ai.processPriorTheory(theory)

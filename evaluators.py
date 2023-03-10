@@ -44,6 +44,9 @@ class Evaluator(object):
 
     def getNonKeypointSamples(self):
         pass
+
+    def reset(self):
+        pass
     
 
 class RegretEvaluator(Evaluator, Cheater):
@@ -60,6 +63,14 @@ class RegretEvaluator(Evaluator, Cheater):
         self.altEnv = env
         self.empKeypoints = []
         return True
+    
+    def reset(self):
+        oldSamplesLen = len(self.samples)
+        self.samples = [] 
+        self.score = 0
+        for i in range(oldSamplesLen):
+            self.samples.append([])
+        self.empKeypoints = []
 
     def passTrueEnvironment(self, trueEnvironment):
         self.env = trueEnvironment
